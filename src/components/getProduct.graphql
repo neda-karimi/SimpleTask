@@ -1,0 +1,19 @@
+{
+  productSearch(q:"عسل"){
+    products{
+      name
+      price
+      primaryPrice
+       score {
+        points
+        score
+      }
+      vendor {
+        name
+      }
+     	photo(size: MEDIUM) {
+        url
+      }
+    }
+  }
+}
